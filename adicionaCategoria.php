@@ -26,7 +26,7 @@ $categoria->setNome('Nova Categoria');
  * A função persist aguarda por um objeto  para colocá-lo na fila
  * de instruções a ser executada sobre o banco de dados
  */
-$entityManager->persist($c);
+$entityManager->persist($categoria);
 
 /**
  * 
